@@ -22,6 +22,14 @@ public class HelloWorldTest {
         assertTrue(helloWorld.isEven(0));
         assertFalse(helloWorld.isEven(-1));
     }
+
+    @Test
+    void testIsNotEven() {
+        HelloWorld helloWorld = new HelloWorld();
+
+        assertFalse(helloWorld.isNotEven(2));
+    
+    }
 }
 
 
