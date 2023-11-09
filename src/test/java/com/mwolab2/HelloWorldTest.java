@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class HelloWorldTest {
 
     @Test
-    void testAverage() {
+    void testAverage1() {
         HelloWorld helloWorld = new HelloWorld();
         double result = helloWorld.average(3.0, 5.0);
         assertEquals(4.0, result, 0.0001); // Using delta for double comparison
